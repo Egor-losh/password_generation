@@ -19,7 +19,7 @@ def random_symbols():
     return ARRAY_SYMBOLS[
         random.randint(0, len(ARRAY_SYMBOLS) - 1)
     ]
-
+print(f'приложение версии 0.0.1')
 print(f'количество доступных символов:{len(ARRAY_SYMBOLS)}')
 print(f'количество возможных вариантов:{count_variant}')
 
